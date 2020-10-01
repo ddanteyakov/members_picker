@@ -1,0 +1,27 @@
+{
+  "name": "@art-forms/observable",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "transform": "tsc -p tsconfig.build.json",
+    "test": "ts-mocha tests/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.7.9",
+    "@types/reflect-metadata": "^0.1.0",
+    "chai": "^4.2.0",
+    "ts-mocha": "^6.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1",
+    "ts-loader": "^6.1.0",
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
